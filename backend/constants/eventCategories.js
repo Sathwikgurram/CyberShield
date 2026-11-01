@@ -1,0 +1,10 @@
+
+export const EVENT_CATEGORIES = Object.freeze({
+  AUTHENTICATION: "AUTHENTICATION",
+  NETWORK: "NETWORK",
+  ACCESS_CONTROL: "ACCESS_CONTROL"
+});
+
+export const EVENT_CATEGORY_VALUES = Object.freeze(
+  Object.values(EVENT_CATEGORIES)
+);
